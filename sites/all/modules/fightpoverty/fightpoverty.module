@@ -1,0 +1,46 @@
+<?php
+    /**
+     * Implements hook_menu().
+     */
+    function fightpoverty_menu() {
+     
+    // Ajax Callback. Returns telephone number for current region.
+    $items['fightpoverty'] = array(
+    'title' => 'fightpoverty title',
+    'page callback' => 'fightpoverty_callback',
+    'access arguments' => array('access content'),
+    'type' => MENU_CALLBACK,
+    );
+     
+    return $items;
+    }
+    
+    function fightpoverty_callback(){
+        global $user;
+        /*
+        $reset_pos_sorting_field = variable_get('reset_pos_sorting_field');
+        $reset_pos_days_to_refresh = variable_get('reset_pos_days_to_refresh');
+        
+        db_update('node')
+            ->fields(array($reset_pos_sorting_field => (int) time()))
+            ->condition('nid', (int)$_GET['nid'])
+            ->condition('uid', (int)$user->uid)
+            ->condition($reset_pos_sorting_field, (int)strtotime("-" . $reset_pos_days_to_refresh .
+                    " days"),'<=')//changed field if sorting changed
+            ->execute();
+        
+        drupal_exit();*/
+    }
+
+    function fightpoverty_form_alter(&$form, &$form_state,$form_id) {
+        switch ($form_id) {
+            case 'user_register_form':
+                $form['#submit'][] = 'fightpoverty_user_register_submit';
+                break;
+        }
+    }
+
+    function fightpoverty_user_register_submit($form, &$form_state) {
+        $form_state['redirect'] = url('node/39');//redirects to choose project page
+    }
+?>
