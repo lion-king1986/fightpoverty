@@ -26,11 +26,17 @@
         // We hide the comments and links now so that we can render them later.
         hide($content['comments']);
         hide($content['links']);
-        print render($content);
-
-        print($node->field_video_code['und'][0]['value']);
-
-        ?>
+        //print render($content);
+		?>
+		<div class="project_content">
+			<div class="project_video">
+				<?php print($node->field_video_code['und'][0]['value']); ?>
+			</div>
+			<a href="#" id="choose_project">Choose this project</a>
+			<div class="project_description">
+				<?php print($node->field_description['und'][0]['value']); ?>
+			</div>
+		</div>
     </div>
 
     <div class="clearfix">

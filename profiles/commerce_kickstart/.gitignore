@@ -4,3 +4,4 @@
 !.htaccess
 nbproject/
 *.kpf
+.idea/*
