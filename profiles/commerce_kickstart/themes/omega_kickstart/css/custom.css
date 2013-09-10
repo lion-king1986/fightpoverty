@@ -31,6 +31,8 @@
 }
 .description {
     margin-bottom: 75px;
+    height: 170px;
+    overflow: hidden;
 }
 .cp_container {
     position: relative;
