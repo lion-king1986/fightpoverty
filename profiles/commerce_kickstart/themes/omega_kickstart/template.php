@@ -22,7 +22,9 @@ function omega_kickstart_preprocess_html(&$variables) {
   $theme_path = drupal_get_path('theme', 'omega_kickstart');
   drupal_add_css($theme_path . '/css/ie-lte-8.css', array('group' => CSS_THEME, 'weight' => 20, 'browsers' => array('IE' => 'lte IE 8', '!IE' => FALSE), 'preprocess' => FALSE));
   drupal_add_css($theme_path . '/css/ie-lte-7.css', array('group' => CSS_THEME, 'weight' => 21, 'browsers' => array('IE' => 'lte IE 7', '!IE' => FALSE), 'preprocess' => FALSE));
-    drupal_add_css($theme_path . '/css/custom.css', array('group' => CSS_THEME, 'type' => 'file'));
+  drupal_add_css($theme_path . '/css/custom.css', array('group' => CSS_THEME, 'type' => 'file'));
+  drupal_add_js($theme_path . '/js/custom.js', array('type' => 'file'));
+  drupal_add_js('misc/ajax.js', 'file');
 }
 
 /**
