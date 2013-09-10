@@ -24,6 +24,8 @@
 <!--    <div<?php print $content_attributes; ?>> -->
 	<div class="wrapper">
         <?php
+        $form = choose_proj_fp();
+        echo drupal_render($form);
         // We hide the comments and links now so that we can render them later.
         //hide($content['comments']);
         //hide($content['links']);
