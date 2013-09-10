@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7db73204-5731-4d21-93f2-26b12f9e96e0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/js/custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/templates/node--choose_projects.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/css/custom.css" afterPath="$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/template.php" afterPath="$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="7db73204-5731-4d21-93f2-26b12f9e96e0" name="Default" comment="" />
     <ignored path="fightpoverty.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="7db73204-5731-4d21-93f2-26b12f9e96e0" time="1378215641562" ignored="false" />
@@ -52,6 +46,7 @@
     <file path="/header.php" changelist="7db73204-5731-4d21-93f2-26b12f9e96e0" time="1378394335380" ignored="false" />
     <file path="/node--choose_projects.tpl.php" changelist="7db73204-5731-4d21-93f2-26b12f9e96e0" time="1378740172645" ignored="false" />
     <file path="/template.php" changelist="7db73204-5731-4d21-93f2-26b12f9e96e0" time="1378809631069" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="7db73204-5731-4d21-93f2-26b12f9e96e0" time="1378823710113" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +74,7 @@
       <file leaf-file-name="template.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="26" selection-start="1320" selection-end="1320" vertical-scroll-proportion="0.3828829">
+            <state line="14" column="40" selection-start="555" selection-end="555" vertical-scroll-proportion="0.11261261">
               <folding />
             </state>
           </provider>
@@ -469,7 +464,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="7" />
+    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -662,7 +657,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="26" selection-start="1320" selection-end="1320" vertical-scroll-proportion="0.3828829">
+        <state line="14" column="40" selection-start="555" selection-end="555" vertical-scroll-proportion="0.11261261">
           <folding />
         </state>
       </provider>
