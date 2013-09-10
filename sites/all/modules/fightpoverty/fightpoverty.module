@@ -43,4 +43,41 @@
     function fightpoverty_user_register_submit($form, &$form_state) {
         $form_state['redirect'] = url('node/39');//redirects to choose project page
     }
+function choose_proj_fp() {
+    return drupal_get_form('ajax_example_simplest1');
+}
+
+function ajax_example_simplest1($form, &$form_state) {
+    $form = array();
+    $form['changethis'] = array(
+        '#type' => 'select',
+        '#options' => array(
+            'one' => 'one',
+            'two' => 'two',
+            'three' => 'three',
+        ),
+        '#ajax' => array(
+            'callback' => 'ajax_example_simplest_callback1',
+            'wrapper' => 'replace_textfield_div',
+        ),
+    );
+
+    // This entire form element will be replaced with an updated value.
+    $form['replace_textfield'] = array(
+        '#type' => 'textfield',
+        '#title' => t("The default value will be changed"),
+        '#description' => t("Say something about why you chose") . "'" .
+            (!empty($form_state['values']['changethis'])
+                ? $form_state['values']['changethis'] : t("Not changed yet")) . "'",
+        '#prefix' => '<div id="replace_textfield_div">',
+        '#suffix' => '</div>',
+    );
+    return $form;
+}
+
+function ajax_example_simplest_callback1($form, $form_state) {
+    // The form has already been submitted and updated. We can return the replaced
+    // item as it is.
+    return $form['replace_textfield'];
+}
 ?>
