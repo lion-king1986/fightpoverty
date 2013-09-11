@@ -79,6 +79,26 @@ URL whether JS was enabled or not, letting it do different things based on that.
   return $build;
 }
 
+function ajax_example_simplest_callback1($form, $form_state, $type = 'ajax') {
+	echo "erwerwr"; exit();
+	// The form has already been submitted and updated. We can return the replaced
+	// item as it is.
+	//return $form['replace_textfield'];
+	if ($type == 'ajax') {
+		$output = t("Already choosed");
+		$commands = array();
+		// See ajax_example_advanced.inc for more details on the available commands
+		// and how to use them.
+		$commands[] = ajax_command_append('#ajax_link', $output);
+		$page = array('#type' => 'ajax', '#commands' => $commands);
+		ajax_deliver($page);
+	}
+	else {
+		$output = t("Not choose");
+		return $output;
+	}
+}
+
 /**
  * Callback for link example.
  *

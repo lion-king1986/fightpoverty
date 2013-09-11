@@ -21,17 +21,9 @@
             <?php print $submitted; ?>
         </footer>
     <?php endif; ?>
-<!--    <div<?php print $content_attributes; ?>> -->
 	<div class="wrapper">
         <?php
-        $form = choose_proj_fp();
-        echo drupal_render($form);
-        // We hide the comments and links now so that we can render them later.
-        //hide($content['comments']);
-        //hide($content['links']);
-        //print render($content);
-
-		$query = db_select('node', 'n');
+        $query = db_select('node', 'n');
 		$query->fields('n', array('nid', 'title'));
 		$query->condition('n.type', 'project', '=');
 		$result = $query->execute();
@@ -49,10 +41,6 @@
 
 			$field_participants = field_get_items('node', $node, 'field_participants');
 			$participants = field_view_value('node', $node, 'field_participants', $field_participants[0]);
-
-
-			//var_dump($completed);
-
 		?>
 			<div class="project_block">
 				<div class="description"><?php print $description['#markup']; ?></div>
@@ -65,29 +53,15 @@
 					</div>
 				</div>
 				<p class="fighters_link"><?php print($participants['#markup']); ?> fighters</p>
+				<div id="myDiv"></div>
+				<?php
+					$form = choose_proj_fp($row['nid']);
+					echo drupal_render($form);
+				?>
+				<p><a href="/ajax_link_callback/nojs/" class="use-ajax">Choose</a></p>
 			</div>
 		<?php
 		}
 		?>
-<!--
-		<div class="project_content">
-			<div class="project_video">
-				<?php //print($node->field_video_code['und'][0]['value']); ?>
-			</div>
-			<a href="#" id="choose_project">Choose this project</a>
-			<div class="project_description">
-				<?php //print($node->field_description['und'][0]['value']); ?>
-			</div>
-		</div>
--->
     </div>
-<!--
-    <div class="clearfix">
-        <?php if (!empty($content['links'])): ?>
-            <nav class="links node-links clearfix"><?php print render($content['links']); ?></nav>
-        <?php endif; ?>
-
-        <?php print render($content['comments']); ?>
-    </div>
--->
 </article>

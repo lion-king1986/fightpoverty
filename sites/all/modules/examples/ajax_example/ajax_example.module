@@ -187,6 +187,13 @@ function ajax_example_menu() {
     'file' => 'ajax_example_misc.inc',
   );
 
+$items['ajax_link_callback1'] = array(
+	'page callback' => 'ajax_example_simplest_callback1',
+	'access callback' => 'user_access',
+	'access arguments' => array('access content'),
+	'type' => MENU_CALLBACK,
+	'file' => 'ajax_example_misc.inc',
+);
   // Use AJAX framework commands outside of the #ajax form property.
   // See ajax_example_advanced.inc.
   $items['examples/ajax_example/advanced_commands'] = array(
