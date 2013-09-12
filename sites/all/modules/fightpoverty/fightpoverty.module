@@ -3,22 +3,70 @@
      * Implements hook_menu().
      */
     function fightpoverty_menu() {
-     
-    // Ajax Callback. Returns telephone number for current region.
-    $items['fightpoverty'] = array(
-    'title' => 'fightpoverty title',
-    'page callback' => 'fightpoverty_callback',
-    'access arguments' => array('access content'),
-    'access callback' => 'user_access',
-    'type' => MENU_CALLBACK,
-    );
-     
+
+        $items['fightpoverty/'] = array(
+            'title' => 'fightpoverty title',
+            'page callback' => 'chooseproj_callback',
+            'access arguments' => array('access content'),
+            /*'page arguments' => array(1),*/
+            'access callback' => 'user_access',
+            'type' => MENU_CALLBACK,
+        );
+
+        $items['fightpovertychooseproj/%'] = array(
+            'title' => 'fightpoverty title',
+            'page callback' => 'chooseproj_callback',
+            'access arguments' => array('access content'),
+            'page arguments' => array(1),
+            'access callback' => 'user_access',
+            'type' => MENU_CALLBACK,
+        );
+
     return $items;
     }
-    
-    function fightpoverty_callback(){
+    function test_ajax_link_response($type = 'ajax') {
+        if ($type == 'ajax') {
+            $output = t("This is some content delivered via AJAX");
+            $commands = array();
+            // See ajax_example_advanced.inc for more details on the available commands
+            // and how to use them.
+            $commands[] = ajax_command_append('#myDiv', $output);
+            $page = array('#type' => 'ajax', '#commands' => $commands);
+            ajax_deliver($page);
+        }
+        else {
+            $output = t("This is some content delivered via a page load.");
+            return $output;
+        }
+    }
+    function chooseproj_callback($type, $proj_id){
         global $user;
-        print_r($_POST);
+
+
+        $account = user_load( $user->uid ); // Loading account
+        $edit = array(
+            'field_choosed_project' => array(
+                'und' => array(
+                    0 => array(
+                        'value' => $proj_id,
+                    ),
+                ),
+            ),
+        );
+
+        if( user_save($account, $edit) ){
+
+            $output = t("You have chosen this project");
+            $commands = array();
+            // See ajax_example_advanced.inc for more details on the available commands
+            // and how to use them.
+            $commands[] = ajax_command_replace( '#div' . $proj_id, $output );
+            $page = array('#type' => 'ajax', '#commands' => $commands);
+            ajax_deliver($page);
+
+        }
+
+
         /*
         $reset_pos_sorting_field = variable_get('reset_pos_sorting_field');
         $reset_pos_days_to_refresh = variable_get('reset_pos_days_to_refresh');
@@ -43,85 +91,33 @@
     }
 
     function fightpoverty_user_register_submit($form, &$form_state) {
-        $form_state['redirect'] = url('node/39');//redirects to choose project page
+        $form_state['redirect'] = url('node/43');//redirects to choose project page
     }
-function choose_proj_fp($project_id) {
-    return drupal_get_form('ajax_example_simplest1', $project_id);
-}
+    function choose_proj_fp($project_id) {
+        return drupal_get_form('ajax_chooseproj_print_form', $project_id);
+    }
 
-function ajax_example_simplest1($form, &$form_state, $project_id ) {
-	$form = array();
-	$form['bid'] = array('#type' => 'hidden', '#value' => $project_id);
-	$form['submit_link'] = array(
-		'#type' => 'link',
-		'#title' => t('Choose project'),
-		'#href' => 'fightpoverty',
-		'#id' => 'ajax_link' . $project_id,
-		'#attributes' => array(
-			'class' => array(
-				'use-ajax',
-			),
-		),
-		'#ajax' => array(
-			'callback' => 'ajax_example_simplest_callback3',
-			'wrapper' => 'ajax_link' . $project_id,
-			'method' => 'html',
-			'effect' => 'fade'
-		),
-	);
+    function ajax_chooseproj_print_form($form, &$form_state, $project_id ) {
+        $form = array();
 
-	return $form;
-}
+        $form['submit_link'] = array(
+            '#type' => 'link',
+            '#title' => t('Choose project'),
+            '#href' => 'fightpovertychooseproj/nojs/' . $project_id,
+            '#id' => 'ajax_link' . $project_id,
+            '#attributes' => array(
+                'class' => array(
+                    'use-ajax',
+                ),
+            ),
+            '#ajax' => array(
+                'wrapper' => 'ajax_link' . $project_id,
+                'method' => 'html',
+                'effect' => 'fade'
+            ),
+        );
 
-/*
-function ajax_example_simplest1($form, &$form_state, $project_id ) {
-    $form = array();
-    $form['changethis'] = array(
-        '#type' => 'select',
-        '#options' => array(
-            'one' => 'one',
-            'two' => 'two',
-            'three' => 'three',
-        ),
-        '#ajax' => array(
-            'callback' => 'ajax_example_simplest_callback1',
-            'wrapper' => 'replace_textfield_div',
-        ),
-    );
+        return $form;
+    }
 
-	$form['bid'] = array('#type' => 'hidden', '#value' => $project_id);
-
-    // This entire form element will be replaced with an updated value.
-    $form['replace_textfield'] = array(
-        '#type' => 'textfield',
-        '#title' => t("The default value will be changed"),
-        '#description' => t("Say something about why you chose") . "'" .
-            (!empty($form_state['values']['changethis'])
-                ? $form_state['values']['changethis'] : t("Not changed yet")) . "'",
-        '#prefix' => '<div id="replace_textfield_div">',
-        '#suffix' => '</div>',
-    );
-    return $form;
-}
-*/
-
-function ajax_example_simplest_callback3($form, $form_state, $type = 'ajax') {
-	echo "erwerwr"; exit();
-    // The form has already been submitted and updated. We can return the replaced
-    // item as it is.
-    //return $form['replace_textfield'];
-	if ($type == 'ajax') {
-		$output = t("Already choosed");
-		$commands = array();
-		// See ajax_example_advanced.inc for more details on the available commands
-		// and how to use them.
-		$commands[] = ajax_command_append('#ajax_link', $output);
-		$page = array('#type' => 'ajax', '#commands' => $commands);
-		ajax_deliver($page);
-	}
-	else {
-		$output = t("Not choose");
-		return $output;
-	}
-}
 ?>

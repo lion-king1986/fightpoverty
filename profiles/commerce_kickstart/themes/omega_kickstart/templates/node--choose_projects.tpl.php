@@ -53,13 +53,11 @@
 						<p class="project_percentage"><?php print($completed['#markup']); ?>%</p>
 					</div>
 				</div>
+                <div id="div<?php echo $row['nid'];?>"></div>
 				<p class="fighters_link"><?php print($participants['#markup']); ?> fighters</p>
-				<div id="myDiv"></div>
 				<?php
 					$form = choose_proj_fp($row['nid']);
 					echo drupal_render($form);
-                $link = l(t('Click here'), 'fightpoverty/nojs/', array('attributes' => array('class' => array('use-ajax'))));
-                echo $link;
 				?>
 			</div>
 		<?php
