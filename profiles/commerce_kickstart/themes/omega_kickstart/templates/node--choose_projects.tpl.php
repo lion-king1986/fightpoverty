@@ -22,6 +22,7 @@
         </footer>
     <?php endif; ?>
 	<div class="wrapper">
+
         <?php
         drupal_add_library('system', 'drupal.ajax');
         $query = db_select('node', 'n');
@@ -53,7 +54,7 @@
 						<p class="project_percentage"><?php print($completed['#markup']); ?>%</p>
 					</div>
 				</div>
-				<p class="fighters_link"><?php print($participants['#markup']); ?> fighters</p>
+				<p class="fighters_link"><?php print($participants['#markup']) . '&nbsp;' . t('fighters'); ?></p>
 				<div id="myDiv"></div>
 				<?php
 					$form = choose_proj_fp($row['nid']);
@@ -65,5 +66,6 @@
 		<?php
 		}
 		?>
+		<div class="clearfix"></div>
     </div>
 </article>

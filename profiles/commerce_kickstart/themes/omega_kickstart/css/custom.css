@@ -7,13 +7,14 @@
 .project_block {
     float: left;
     width: 200px;
-    margin-right: 100px;
+    margin: 0 45px;
 }
 .choose_img {
     display: block;
     position: absolute;
-    top: 20px;
+    top: 0px;
     left: 0px;
+    width: 80px;
 }
 .project_info {
     display: block;
@@ -46,6 +47,7 @@
 }
 .wrapper {
     margin: 0 auto;
+    width: 900px;
 }
 .project_content {
     width: 640px;
@@ -59,4 +61,18 @@
 #choose_project {
     margin: 45px 0;
     display: block;
+}
+
+.right_sidebar {
+    margin-top: 16px;
+}
+
+.home_tbl_img {
+    width: 50px;
+    vertical-align: middle;
+}
+
+.right_sidebar table tr {
+    vertical-align: middle;
+    text-align: center;
 }
