@@ -130,3 +130,19 @@ function ajax_link_response($type = 'ajax') {
     return $output;
   }
 }
+
+function ajax_link_response1($type = 'ajax') {
+  if ($type == 'ajax') {
+    $output = t("This is some content delivered via AJAX");
+    $commands = array();
+    // See ajax_example_advanced.inc for more details on the available commands
+    // and how to use them.
+    $commands[] = ajax_command_append('#myDiv', $output);
+    $page = array('#type' => 'ajax', '#commands' => $commands);
+    ajax_deliver($page);
+  }
+  else {
+    $output = t("This is some content delivered via a page load.");
+    return $output;
+  }
+}

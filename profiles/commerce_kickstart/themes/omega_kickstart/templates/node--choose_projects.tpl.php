@@ -58,7 +58,7 @@
 					$form = choose_proj_fp($row['nid']);
 					echo drupal_render($form);
 				?>
-				<p><a href="/ajax_link_callback/nojs/" class="use-ajax">Choose</a></p>
+				<p><a href="/ajax_link_callback1/nojs/" class="use-ajax">Choose</a></p>
 			</div>
 		<?php
 		}

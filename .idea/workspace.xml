@@ -73,19 +73,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="template.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="1" selection-start="1707" selection-end="1707" vertical-scroll-proportion="-13.125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="node--choose_projects.tpl.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/templates/node--choose_projects.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="47" selection-start="2478" selection-end="2478" vertical-scroll-proportion="-22.125">
+            <state line="60" column="48" selection-start="2479" selection-end="2479" vertical-scroll-proportion="-22.125">
               <folding />
             </state>
           </provider>
@@ -94,7 +85,7 @@
       <file leaf-file-name="fightpoverty.module" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/fightpoverty/fightpoverty.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="1" selection-start="3870" selection-end="3870" vertical-scroll-proportion="0.844904">
+            <state line="51" column="71" selection-start="1678" selection-end="1745" vertical-scroll-proportion="0.13761468">
               <folding />
             </state>
           </provider>
@@ -103,7 +94,67 @@
       <file leaf-file-name="ajax_example.module" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/examples/ajax_example/ajax_example.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="189" column="27" selection-start="6950" selection-end="6950" vertical-scroll-proportion="-5.8163266">
+            <state line="190" column="43" selection-start="7002" selection-end="7002" vertical-scroll-proportion="-57.2449">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajax_example.install" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/examples/ajax_example/ajax_example.install">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajax_example_node_form_alter.inc" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/examples/ajax_example/ajax_example_node_form_alter.inc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="65.375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajax_example.info" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/examples/ajax_example/ajax_example.info">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajax_example.test" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/examples/ajax_example/ajax_example.test">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajax_example_advanced.inc" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/examples/ajax_example/ajax_example_advanced.inc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="175.0">
+              <folding>
+                <marker date="1378171334000" expanded="false" signature="4420:4470" placeholder="..." />
+                <marker date="1378171334000" expanded="true" signature="8342:8536" placeholder="..." />
+                <marker date="1378171334000" expanded="false" signature="8396:8419" placeholder="..." />
+                <marker date="1378171334000" expanded="true" signature="8420:8511" placeholder="..." />
+                <marker date="1378171334000" expanded="false" signature="14275:14298" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajax_example_autocomplete.inc" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/examples/ajax_example/ajax_example_autocomplete.inc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="217.25">
               <folding />
             </state>
           </provider>
@@ -112,7 +163,7 @@
       <file leaf-file-name="ajax_example_misc.inc" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/examples/ajax_example/ajax_example_misc.inc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="32" selection-start="3650" selection-end="3650" vertical-scroll-proportion="-7.387755">
+            <state line="133" column="28" selection-start="4860" selection-end="4860" vertical-scroll-proportion="-8.918367">
               <folding />
             </state>
           </provider>
@@ -563,48 +614,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/profiles/commerce_kickstart/themes/commerce_kickstart_admin/config.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/commerce_kickstart/themes/commerce_kickstart_theme/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/commerce_kickstart/themes/commerce_kickstart_admin/templates/maintenance-page.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1378825908000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1378825908000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1378825908000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1378825908000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1378825908000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1378825908000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1378825908000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1378825908000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1378825908000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1378825908000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1378825908000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1378825908000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1378825908000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/commerce_kickstart/themes/commerce_kickstart_admin/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="1" selection-start="1707" selection-end="1707" vertical-scroll-proportion="-13.125">
@@ -649,9 +658,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/examples/ajax_example/ajax_example.test">
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/examples/ajax_example/ajax_example_misc.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="133" column="28" selection-start="4860" selection-end="4860" vertical-scroll-proportion="-8.918367">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/templates/node--choose_projects.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="48" selection-start="2479" selection-end="2479" vertical-scroll-proportion="-22.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/examples/ajax_example/ajax_example.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="190" column="43" selection-start="7002" selection-end="7002" vertical-scroll-proportion="-57.2449">
           <folding />
         </state>
       </provider>
@@ -663,30 +686,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/examples/ajax_example/ajax_example_misc.inc">
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/examples/ajax_example/ajax_example_node_form_alter.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="32" selection-start="3650" selection-end="3650" vertical-scroll-proportion="-7.387755">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="65.375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/examples/ajax_example/ajax_example.module">
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/examples/ajax_example/ajax_example.info">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="189" column="27" selection-start="6950" selection-end="6950" vertical-scroll-proportion="-5.8163266">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/templates/node--choose_projects.tpl.php">
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/examples/ajax_example/ajax_example.test">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="47" selection-start="2478" selection-end="2478" vertical-scroll-proportion="-22.125">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/examples/ajax_example/ajax_example_advanced.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="175.0">
+          <folding>
+            <marker date="1378171334000" expanded="false" signature="4420:4470" placeholder="..." />
+            <marker date="1378171334000" expanded="true" signature="8342:8536" placeholder="..." />
+            <marker date="1378171334000" expanded="false" signature="8396:8419" placeholder="..." />
+            <marker date="1378171334000" expanded="true" signature="8420:8511" placeholder="..." />
+            <marker date="1378171334000" expanded="false" signature="14275:14298" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/examples/ajax_example/ajax_example_autocomplete.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="217.25">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/fightpoverty/fightpoverty.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="1" selection-start="3870" selection-end="3870" vertical-scroll-proportion="0.844904">
+        <state line="51" column="71" selection-start="1678" selection-end="1745" vertical-scroll-proportion="0.13761468">
           <folding />
         </state>
       </provider>
