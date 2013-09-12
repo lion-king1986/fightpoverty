@@ -188,7 +188,7 @@ function ajax_example_menu() {
   );
 
 $items['ajax_link_callback1'] = array(
-	'page callback' => 'ajax_example_simplest_callback1',
+	'page callback' => 'ajax_link_response1',
 	'access callback' => 'user_access',
 	'access arguments' => array('access content'),
 	'type' => MENU_CALLBACK,
