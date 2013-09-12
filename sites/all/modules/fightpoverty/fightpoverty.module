@@ -9,6 +9,7 @@
     'title' => 'fightpoverty title',
     'page callback' => 'fightpoverty_callback',
     'access arguments' => array('access content'),
+    'access callback' => 'user_access',
     'type' => MENU_CALLBACK,
     );
      
@@ -17,6 +18,7 @@
     
     function fightpoverty_callback(){
         global $user;
+        print_r($_POST);
         /*
         $reset_pos_sorting_field = variable_get('reset_pos_sorting_field');
         $reset_pos_days_to_refresh = variable_get('reset_pos_days_to_refresh');
@@ -52,8 +54,8 @@ function ajax_example_simplest1($form, &$form_state, $project_id ) {
 	$form['bid'] = array('#type' => 'hidden', '#value' => $project_id);
 	$form['submit_link'] = array(
 		'#type' => 'link',
-		'#title' => t('Choose'),
-		'#href' => 'ajax_example_simplest_callback1/nojs/',
+		'#title' => t('Choose project'),
+		'#href' => 'fightpoverty',
 		'#id' => 'ajax_link' . $project_id,
 		'#attributes' => array(
 			'class' => array(
@@ -61,7 +63,7 @@ function ajax_example_simplest1($form, &$form_state, $project_id ) {
 			),
 		),
 		'#ajax' => array(
-			//'callback' => 'ajax_example_simplest_callback1',
+			'callback' => 'ajax_example_simplest_callback3',
 			'wrapper' => 'ajax_link' . $project_id,
 			'method' => 'html',
 			'effect' => 'fade'
@@ -103,7 +105,7 @@ function ajax_example_simplest1($form, &$form_state, $project_id ) {
 }
 */
 
-function ajax_example_simplest_callback1($form, $form_state, $type = 'ajax') {
+function ajax_example_simplest_callback3($form, $form_state, $type = 'ajax') {
 	echo "erwerwr"; exit();
     // The form has already been submitted and updated. We can return the replaced
     // item as it is.

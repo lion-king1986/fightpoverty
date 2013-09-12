@@ -23,6 +23,7 @@
     <?php endif; ?>
 	<div class="wrapper">
         <?php
+        drupal_add_library('system', 'drupal.ajax');
         $query = db_select('node', 'n');
 		$query->fields('n', array('nid', 'title'));
 		$query->condition('n.type', 'project', '=');
@@ -57,9 +58,10 @@
 				<?php
 					$form = choose_proj_fp($row['nid']);
 					echo drupal_render($form);
+                $link = l(t('Click here'), 'fightpoverty/nojs/', array('attributes' => array('class' => array('use-ajax'))));
+                echo $link;
 				?>
-				<p><a href="/ajax_link_callback1/nojs/" class="use-ajax">Choose</a></p>
-			</div>
+		    </div>
 		<?php
 		}
 		?>
