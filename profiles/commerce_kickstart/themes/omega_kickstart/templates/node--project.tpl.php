@@ -26,11 +26,26 @@
         // We hide the comments and links now so that we can render them later.
         hide($content['comments']);
         hide($content['links']);
-        print render($content);
+		//var_dump($content);
 
-        print($node->field_video_code['und'][0]['value']);
+		$field_description = field_get_items('node', $node, 'field_description');
+		$description = field_view_value('node', $node, 'field_description', $field_description[0]);
 
-        ?>
+		$field_completed = field_get_items('node', $node, 'field_completed');
+		$completed = field_view_value('node', $node, 'field_completed', $field_completed[0]);
+
+		$field_participants = field_get_items('node', $node, 'field_participants');
+		$participants = field_view_value('node', $node, 'field_participants', $field_participants[0]);
+		?>
+		<p class="project_participans"><?php print( '<b>' . t('Participants') . ':</b>&nbsp;' . $participants['#markup']); ?></p>
+		<p class="project_completed"><?php print('<b>' . t('Completed') . ':</b>&nbsp;' . $completed['#markup']); ?>%</p>
+		<div class="project_description"><?php print('<b>' .  t('Description') . ':</b><br />' .  $description['#markup']); ?></div>
+
+		<?php
+        //print render($content);
+		?>
+
+		<div class="project_video"><?php print($node->field_video_code['und'][0]['value']); ?></div>
     </div>
 
     <div class="clearfix">

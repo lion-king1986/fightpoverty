@@ -79,3 +79,14 @@
 .page-user .profile ul.user-chosen-projects li {
     list-style: none outside none;
 }
+.project_participans,
+.project_completed,
+.project_description {
+    margin-left: 20px;
+}
+.project_description {
+    margin-bottom: 50px;
+}
+.project_video {
+    text-align: center;
+}

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7db73204-5731-4d21-93f2-26b12f9e96e0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/fightpoverty/fightpoverty.module" afterPath="$PROJECT_DIR$/sites/all/modules/fightpoverty/fightpoverty.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/templates/node--choose_projects.tpl.php" afterPath="$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/templates/node--choose_projects.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/css/custom.css" afterPath="$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/templates/node--project.tpl.php" afterPath="$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/templates/node--project.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fightpoverty.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,8 +22,8 @@
     <file path="/fightpoverty.info" changelist="7db73204-5731-4d21-93f2-26b12f9e96e0" time="1378198367697" ignored="false" />
     <file path="/node.tpl.php" changelist="7db73204-5731-4d21-93f2-26b12f9e96e0" time="1378210879723" ignored="false" />
     <file path="/node-project.tpl.php" changelist="7db73204-5731-4d21-93f2-26b12f9e96e0" time="1378209956569" ignored="false" />
-    <file path="/node--project.tpl.php" changelist="7db73204-5731-4d21-93f2-26b12f9e96e0" time="1378378802737" ignored="false" />
-    <file path="/custom.css" changelist="7db73204-5731-4d21-93f2-26b12f9e96e0" time="1378735815365" ignored="false" />
+    <file path="/node--project.tpl.php" changelist="7db73204-5731-4d21-93f2-26b12f9e96e0" time="1379341865213" ignored="false" />
+    <file path="/custom.css" changelist="7db73204-5731-4d21-93f2-26b12f9e96e0" time="1379342414801" ignored="false" />
     <file path="$PROJECT_DIR$/../shiraz.bget.loc/wp-content/themes/twentytwelve/footer.php" changelist="7db73204-5731-4d21-93f2-26b12f9e96e0" time="1378288120869" ignored="false" />
     <file path="/footer.php" changelist="7db73204-5731-4d21-93f2-26b12f9e96e0" time="1378288029291" ignored="false" />
     <file path="$PROJECT_DIR$/../shiraz.bget.loc/wp-content/themes/twentytwelve/archive-showroom.php" changelist="7db73204-5731-4d21-93f2-26b12f9e96e0" time="1378329368133" ignored="false" />
@@ -47,7 +48,7 @@
     <file path="$PROJECT_DIR$/../shiraz.bget.loc/wp-content/themes/twentytwelve/single-inner.php" changelist="7db73204-5731-4d21-93f2-26b12f9e96e0" time="1378329334469" ignored="false" />
     <file path="$PROJECT_DIR$/../shiraz.bget.loc/wp-content/themes/twentytwelve/archive-contact.php" changelist="7db73204-5731-4d21-93f2-26b12f9e96e0" time="1378329405373" ignored="false" />
     <file path="/header.php" changelist="7db73204-5731-4d21-93f2-26b12f9e96e0" time="1378394335380" ignored="false" />
-    <file path="/node--choose_projects.tpl.php" changelist="7db73204-5731-4d21-93f2-26b12f9e96e0" time="1379323358072" ignored="false" />
+    <file path="/node--choose_projects.tpl.php" changelist="7db73204-5731-4d21-93f2-26b12f9e96e0" time="1379341114118" ignored="false" />
     <file path="/template.php" changelist="7db73204-5731-4d21-93f2-26b12f9e96e0" time="1378809631069" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +77,7 @@
       <file leaf-file-name="node--choose_projects.tpl.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/templates/node--choose_projects.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="73" selection-start="3460" selection-end="3460" vertical-scroll-proportion="-18.791666">
+            <state line="63" column="86" selection-start="2258" selection-end="2328" vertical-scroll-proportion="-9.416667">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#article#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#article#0;n#!!top" expanded="true" />
@@ -86,10 +87,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fightpoverty.module" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="fightpoverty.module" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/fightpoverty/fightpoverty.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="82" selection-start="2992" selection-end="2992" vertical-scroll-proportion="0.8082386">
+            <state line="91" column="69" selection-start="3393" selection-end="3393" vertical-scroll-proportion="-23.708334">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="node--project.tpl.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/templates/node--project.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="39" selection-start="1715" selection-end="1734" vertical-scroll-proportion="-15.041667">
+              <folding>
+                <marker date="1379341925000" expanded="true" signature="2009:2044" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/css/custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="91" column="1" selection-start="1484" selection-end="1484" vertical-scroll-proportion="0.9587912">
               <folding />
             </state>
           </provider>
@@ -120,15 +141,15 @@
         <option value="$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/templates/node.tpl.php" />
         <option value="$PROJECT_DIR$/profiles/commerce_kickstart/.gitignore" />
         <option value="$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/templates/node--choose.tpl.php" />
-        <option value="$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/templates/node--project.tpl.php" />
-        <option value="$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/css/custom.css" />
         <option value="$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/js/custom.js" />
         <option value="$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/template.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/sites/all/modules/examples/ajax_example/ajax_example_misc.inc" />
         <option value="$PROJECT_DIR$/sites/all/modules/examples/ajax_example/ajax_example.module" />
-        <option value="$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/templates/node--choose_projects.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/fightpoverty/fightpoverty.module" />
+        <option value="$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/templates/node--choose_projects.tpl.php" />
+        <option value="$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/templates/node--project.tpl.php" />
+        <option value="$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/css/custom.css" />
       </list>
     </option>
   </component>
@@ -245,97 +266,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fightpoverty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fightpoverty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fightpoverty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fightpoverty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fightpoverty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fightpoverty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fightpoverty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ajax_example" />
+              <option name="myItemId" value="profiles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -350,6 +281,118 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="profiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commerce_kickstart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fightpoverty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fightpoverty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="profiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commerce_kickstart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fightpoverty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fightpoverty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="profiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commerce_kickstart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="omega_kickstart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fightpoverty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fightpoverty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="profiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commerce_kickstart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="omega_kickstart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fightpoverty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fightpoverty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="profiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commerce_kickstart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="omega_kickstart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -540,13 +583,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/profiles/commerce_kickstart/themes/commerce_kickstart_admin/config.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/profiles/commerce_kickstart/themes/commerce_kickstart_theme/template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -583,13 +619,6 @@
     <entry file="file://$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/templates/node--project.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="31" selection-start="955" selection-end="955" vertical-scroll-proportion="-13.75">
           <folding />
         </state>
       </provider>
@@ -638,9 +667,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/fightpoverty/fightpoverty.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="69" selection-start="3393" selection-end="3393" vertical-scroll-proportion="-23.708334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/templates/node--choose_projects.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="73" selection-start="3460" selection-end="3460" vertical-scroll-proportion="-18.791666">
+        <state line="63" column="86" selection-start="2258" selection-end="2328" vertical-scroll-proportion="-9.416667">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#article#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#article#0;n#!!top" expanded="true" />
@@ -649,9 +685,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/fightpoverty/fightpoverty.module">
+    <entry file="file://$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/templates/node--project.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="82" selection-start="2992" selection-end="2992" vertical-scroll-proportion="0.8082386">
+        <state line="41" column="39" selection-start="1715" selection-end="1734" vertical-scroll-proportion="-15.041667">
+          <folding>
+            <marker date="1379341925000" expanded="true" signature="2009:2044" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="1" selection-start="1484" selection-end="1484" vertical-scroll-proportion="0.9587912">
           <folding />
         </state>
       </provider>
