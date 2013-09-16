@@ -76,3 +76,6 @@
     vertical-align: middle;
     text-align: center;
 }
+.page-user .profile ul.user-chosen-projects li {
+    list-style: none outside none;
+}

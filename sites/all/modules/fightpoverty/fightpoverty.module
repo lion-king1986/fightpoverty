@@ -120,4 +120,29 @@
         return $form;
     }
 
+function fightpoverty_user_view($account, $view_mode, $langcode) {
+
+    $account->content['field_choosed_project'] = array (  '#weight' => -1000,  '#type' => 'user_profile_category', '#title' => t('Chosen project'),
+        '#markup' => '', '#attributes' => array ( 'class' => array ( 0 => 'user-chosen-projects', 1 => 'clearfix', ), ),
+        '#access' => true, 'view' => array ( '#type' => 'user_profile_item', '#title' => '', '#markup' => ' ',
+            '#attributes' => array ( 'class' => array ( 0 => 'recent-orders', ), ), ), );
+
+    if( !empty($account->field_choosed_project) ){
+
+        $field_choosed_project = field_get_items('user', $account, 'field_choosed_project');
+        $chosen_project = field_view_value('user', $account, 'field_choosed_project', $field_choosed_project[0]);
+
+        $project = node_load( $chosen_project['#markup'] );
+
+        $account->content['field_choosed_project']['view']['#markup'] = t('You have chosen:') .' '. l( $project->title .' '. t('project'), 'node/'.$project->nid);
+
+    }else{
+
+        $account->content['field_choosed_project']['view']['#markup'] = l(t('Please choose project to participate'), 'node/43');
+
+    }
+
+
+}
+
 ?>
