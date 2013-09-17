@@ -89,7 +89,7 @@
 							<p class='login_link'>"
 							. t('You need to ')
 							. "<a href='".$base_url."/user/login'>log in</a>"
-							. t(' for choose projects')
+							. t(' to choose projects')
 							. "</p>
 						";
 					}
