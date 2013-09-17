@@ -25,6 +25,8 @@
 
         <?php
 		global $user;
+		global $base_url;
+		$login_message = "";
 
 		if($user->uid) {
 			$users_choice = db_select('field_data_field_choosed_project', 'chp')
@@ -72,12 +74,24 @@
 				</div>
 				<p class="fighters_link"><?php print($participants['#markup']) . '&nbsp;' . t('fighters'); ?></p>
 				<?php
-					if(!empty($users_choice) && $users_choice == $row['nid']) {
-						$display_message = "display:block";
-						$display_link = "display:none";
+					if($user->uid) {
+						if(!empty($users_choice) && $users_choice == $row['nid']) {
+							$display_message = "display:block";
+							$display_link = "display:none";
+						} else {
+							$display_message = "display:none";
+							$display_link = "display:block";
+						}
 					} else {
 						$display_message = "display:none";
-						$display_link = "display:block";
+						$display_link = "display:none";
+						$login_message = "
+							<p class='login_link'>"
+							. t('You need to ')
+							. "<a href='".$base_url."/user/login'>log in</a>"
+							. t(' for choose projects')
+							. "</p>
+						";
 					}
 				?>
                 <div id="div<?php echo $row['nid'];?>" style="<?php echo $display_message; ?>">You have chosen this project</div>
@@ -92,5 +106,6 @@
 		}
 		?>
 		<div class="clearfix"></div>
+		<?php echo $login_message; ?>
     </div>
 </article>

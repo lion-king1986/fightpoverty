@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7db73204-5731-4d21-93f2-26b12f9e96e0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/css/custom.css" afterPath="$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/templates/node--project.tpl.php" afterPath="$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/templates/node--project.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/templates/node--choose_projects.tpl.php" afterPath="$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/templates/node--choose_projects.tpl.php" />
     </list>
     <ignored path="fightpoverty.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,7 +47,7 @@
     <file path="$PROJECT_DIR$/../shiraz.bget.loc/wp-content/themes/twentytwelve/single-inner.php" changelist="7db73204-5731-4d21-93f2-26b12f9e96e0" time="1378329334469" ignored="false" />
     <file path="$PROJECT_DIR$/../shiraz.bget.loc/wp-content/themes/twentytwelve/archive-contact.php" changelist="7db73204-5731-4d21-93f2-26b12f9e96e0" time="1378329405373" ignored="false" />
     <file path="/header.php" changelist="7db73204-5731-4d21-93f2-26b12f9e96e0" time="1378394335380" ignored="false" />
-    <file path="/node--choose_projects.tpl.php" changelist="7db73204-5731-4d21-93f2-26b12f9e96e0" time="1379341114118" ignored="false" />
+    <file path="/node--choose_projects.tpl.php" changelist="7db73204-5731-4d21-93f2-26b12f9e96e0" time="1379404662605" ignored="false" />
     <file path="/template.php" changelist="7db73204-5731-4d21-93f2-26b12f9e96e0" time="1378809631069" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,14 +73,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="node--choose_projects.tpl.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="node--choose_projects.tpl.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/templates/node--choose_projects.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="86" selection-start="2258" selection-end="2328" vertical-scroll-proportion="-9.416667">
+            <state line="90" column="64" selection-start="3539" selection-end="3539" vertical-scroll-proportion="0.5007236">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#article#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#article#0;n#!!top" expanded="true" />
-                <marker date="1379323488000" expanded="true" signature="2252:2307" placeholder="..." />
+                <marker date="1379404964000" expanded="true" signature="2295:2350" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -107,10 +106,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="custom.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="1" selection-start="1484" selection-end="1484" vertical-scroll-proportion="0.9587912">
+            <state line="94" column="21" selection-start="1544" selection-end="1544" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -147,9 +146,9 @@
         <option value="$PROJECT_DIR$/sites/all/modules/examples/ajax_example/ajax_example_misc.inc" />
         <option value="$PROJECT_DIR$/sites/all/modules/examples/ajax_example/ajax_example.module" />
         <option value="$PROJECT_DIR$/sites/all/modules/fightpoverty/fightpoverty.module" />
-        <option value="$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/templates/node--choose_projects.tpl.php" />
         <option value="$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/templates/node--project.tpl.php" />
         <option value="$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/css/custom.css" />
+        <option value="$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/templates/node--choose_projects.tpl.php" />
       </list>
     </option>
   </component>
@@ -674,17 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/templates/node--choose_projects.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="86" selection-start="2258" selection-end="2328" vertical-scroll-proportion="-9.416667">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#article#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#article#0;n#!!top" expanded="true" />
-            <marker date="1379323488000" expanded="true" signature="2252:2307" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/templates/node--project.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="39" selection-start="1715" selection-end="1734" vertical-scroll-proportion="-15.041667">
@@ -696,8 +684,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="1" selection-start="1484" selection-end="1484" vertical-scroll-proportion="0.9587912">
+        <state line="94" column="21" selection-start="1544" selection-end="1544" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/commerce_kickstart/themes/omega_kickstart/templates/node--choose_projects.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="64" selection-start="3539" selection-end="3539" vertical-scroll-proportion="0.5007236">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#article#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#article#0;n#!!top" expanded="true" />
+            <marker date="1379404964000" expanded="true" signature="2295:2350" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
